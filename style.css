@@ -1,0 +1,100 @@
+
+body {
+    margin: 0;
+  }
+.suggest_popup{
+    position: absolute;
+    padding: 4px 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+    border-left: none;
+    background: white;
+    
+    width: 250px;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.suggest_popup_hidden{
+    display: none;
+}
+.suggest_popup-item{
+    cursor: pointer;
+}
+.suggest_popup-item:hover{
+    background: rgb(28, 221, 221);
+}
+.rainImg{
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    height: 200px;
+    background-image: url(./img/pogoda.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.head__title{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 35px;
+    text-shadow: white 0 0 3px;
+}
+.main{
+    height: 100vh;
+}
+.suggest{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    font-size: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.suggest__title{
+    display: inline;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.suggest__main{
+    display: flex;
+    justify-content: space-between;
+}
+.weather__result{
+    margin-right: 150px;
+    margin-top: 16px;
+}
+.weathername{
+    font-size: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-bottom: 0px;
+}
+.minTemp{
+    font-size: 30px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.feelTemp{
+    font-size: 25px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.search__img{
+    width: 400px;
+    height: 350px;
+    display: block;
+    padding-top: 16px;
+    padding-left: 30px;
+
+}

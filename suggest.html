@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ирина Дабижа 3_8-2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+    <header class="head">
+        <h1 class="head__title">Узнай текущую погоду в своем городе</h1>
+    </header>
+    <div class="main">
+        <div class="suggest__main">
+            <div class="search">
+                <p class="suggest__title">Найти город:</p>
+            <input class="suggest">
+            <img class="search__img" src="./img/happy1.jpg" alt="cat">
+            </div>
+            <div class="weather__result"></div>
+    </div>
+    </div>
+    <script>
+        const main = document.querySelector('.main');
+        const form = document.querySelector('.form');
+        const suggestMain = document.querySelector('.suggest__main');
+        const wheatherResult = document.querySelector('.weather__result');
+    </script>
+    <script src="./cities.js"></script>
+    
+    <script src="./suggest.js"></script>
+    <script src="./request.js"></script>
+    <script src="./iconwheather.js"></script>
+
+
+
+
+</body>
+</html>
